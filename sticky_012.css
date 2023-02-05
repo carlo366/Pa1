@@ -1,0 +1,72 @@
+/*
+Nama File : sticky_012.css
+Nama : Carloka Boas Alberto Sembiring Meliala
+NIM :11322012
+Kelas :D3 TI 
+*/
+* {
+    margin: 0;
+    padding: 0;
+    }
+    .container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    }
+    h1 { background-color: #305782;
+    color: #fff;
+    padding: 60px 25px;
+    margin: 0;
+    }
+    nav {
+    z-index: 100;
+    background-color: #e7ecf2;
+    }
+    .nav-placeholder {
+    margin: 0 0 40px 0;
+    background: #e7ecf2;
+    }
+    .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    }
+    .fixed .nav-inner {
+    padding: 0 10%;
+    }
+    .fixed .nav-inner-most {
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: #e7ecf2;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+        }
+        .clearfix {
+        width: 100%;
+        background-color: #e7ecf2;
+        }
+        nav ul li {
+        list-style: none;
+        text-align: center;
+        display: inline-block;
+        }
+        nav ul li a:link,
+        nav ul li a:visited {
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 25px;
+        background-color: #e7ecf2;
+        border-right: 2px solid #d5dce4;
+        color: #33557c;
+        font-size: 90%;
+        font-weight: bold;
+        }
+        .content {
+        margin: 100px auto;
+        }
+        
